@@ -12,7 +12,7 @@ namespace DiceRoller
     class Die
     {
         private byte faceValue;
-        private byte numberOfSides;
+        private readonly byte numberOfSides;
         private static Random rand;
 
 
